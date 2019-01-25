@@ -11,6 +11,7 @@ namespace Example8
         static void Main(string[] args)
         {
             //comment
+            //comment2
             int x = 1;
             string s = "123 fdsafadsf";
             bool res = int.TryParse(s, out x);
