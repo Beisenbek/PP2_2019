@@ -25,6 +25,7 @@ namespace Example9
         static void Main(string[] args)
         {
             //comment1
+            //comment2
             Student s = new Student("Omarov", "4.0");
             Console.WriteLine(s);
         }
