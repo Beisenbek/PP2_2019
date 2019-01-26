@@ -10,6 +10,7 @@ namespace Example5
     {
         static void Main(string[] args)
         {
+            //comment
             bool log = false;
             if (args.Length > 0)
             {
