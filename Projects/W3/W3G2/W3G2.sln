@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarManager", "FarManager\Fa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarManager2", "FarManager2\FarManager2.csproj", "{88FF5F13-2755-4B1D-8780-CB0E21E97587}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarManager3", "FarManager3\FarManager3.csproj", "{433FDF5A-5879-4BC6-B3A8-289D4CED5197}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{88FF5F13-2755-4B1D-8780-CB0E21E97587}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88FF5F13-2755-4B1D-8780-CB0E21E97587}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88FF5F13-2755-4B1D-8780-CB0E21E97587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{433FDF5A-5879-4BC6-B3A8-289D4CED5197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{433FDF5A-5879-4BC6-B3A8-289D4CED5197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{433FDF5A-5879-4BC6-B3A8-289D4CED5197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{433FDF5A-5879-4BC6-B3A8-289D4CED5197}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
