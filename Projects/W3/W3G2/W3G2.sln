@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarManager", "FarManager\FarManager.csproj", "{9C0B276C-E30C-4D40-A59A-06482A2AF4A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarManager2", "FarManager2\FarManager2.csproj", "{88FF5F13-2755-4B1D-8780-CB0E21E97587}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C0B276C-E30C-4D40-A59A-06482A2AF4A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C0B276C-E30C-4D40-A59A-06482A2AF4A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C0B276C-E30C-4D40-A59A-06482A2AF4A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C0B276C-E30C-4D40-A59A-06482A2AF4A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88FF5F13-2755-4B1D-8780-CB0E21E97587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88FF5F13-2755-4B1D-8780-CB0E21E97587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88FF5F13-2755-4B1D-8780-CB0E21E97587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88FF5F13-2755-4B1D-8780-CB0E21E97587}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75329CD7-2FD0-4844-8EC4-7700C42E6796}
+	EndGlobalSection
+EndGlobal
