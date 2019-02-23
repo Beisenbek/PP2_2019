@@ -2,20 +2,17 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
-using System.Xml.Serialization;
 
-namespace Example2
+namespace Example3
 {
-    public class Student
+    [Serializable]
+    class Student
     {
-        public Student()
-        {
-        }
-
+        //[NonSerialized]
         public string name;
-        //[XmlIgnore]
         public string gpa;
         public void PrintInfo()
         {
@@ -23,35 +20,32 @@ namespace Example2
         }
 
     }
+
     class Program
     {
         static void Main(string[] args)
         {
-            F1();
+            F2();
         }
 
         private static void F2()
         {
-            XmlSerializer xs = new XmlSerializer(typeof(Student));
-            FileStream fs = new FileStream("student.xml", FileMode.Open, FileAccess.Read);
-            Student student = xs.Deserialize(fs) as Student;
-
-
+            BinaryFormatter bf = new BinaryFormatter();
+            FileStream fs = new FileStream("student.txt", FileMode.Open, FileAccess.Read);
+            Student student = bf.Deserialize(fs) as Student;
             student.PrintInfo();
-
             fs.Close();
         }
 
         private static void F1()
         {
+            BinaryFormatter bf = new BinaryFormatter();
             Student s = new Student();
-            s.gpa = "4.0";
             s.name = "AAAA";
+            s.gpa = "3.5";
 
-            XmlSerializer xs = new XmlSerializer(typeof(Student));
-            FileStream fs = new FileStream("student.xml", FileMode.Create, FileAccess.Write);
-            xs.Serialize(fs, s);
-
+            FileStream fs = new FileStream("student.txt", FileMode.Create, FileAccess.Write);
+            bf.Serialize(fs, s);
             fs.Close();
         }
     }
