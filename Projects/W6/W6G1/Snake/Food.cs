@@ -10,7 +10,17 @@ namespace Snake
     {
         public Food(char sign):base(sign)
         {
-            body.Add(new Point(30, 20));
+            Generate();
+        }
+        public void Generate()
+        {
+            Random random = new Random(DateTime.Now.Second);
+            body.Clear();
+            body.Add(new Point
+            {
+                X = random.Next(1, 39),
+                Y = random.Next(1, 39)
+            });
         }
     }
 }

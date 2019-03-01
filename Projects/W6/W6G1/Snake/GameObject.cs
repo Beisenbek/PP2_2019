@@ -8,7 +8,7 @@ namespace Snake
 {
     class GameObject
     {
-        protected List<Point> body = new List<Point>();
+        public List<Point> body = new List<Point>();
         protected char sign;
 
         public GameObject(char sign)
@@ -20,7 +20,7 @@ namespace Snake
         {
             for (int i = 0; i < body.Count; ++i)
             {
-                Console.SetCursorPosition(body[i].x, body[i].y);
+                Console.SetCursorPosition(body[i].X, body[i].Y);
                 Console.Write(' ');
             }
         }
@@ -29,7 +29,7 @@ namespace Snake
         {
             for (int i = 0; i < body.Count; ++i)
             {
-                Console.SetCursorPosition(body[i].x, body[i].y);
+                Console.SetCursorPosition(body[i].X, body[i].Y);
                 Console.Write(sign);
             }
         }
