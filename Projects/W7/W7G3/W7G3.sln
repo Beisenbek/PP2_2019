@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threading2", "Threading2\Th
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task", "Task\Task.csproj", "{92F6B9ED-3334-4CD8-BBFD-C8B18F49FA24}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snake", "Snake\Snake.csproj", "{7C65BF13-7B93-43F3-8F9F-E0B23FA2DA8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{92F6B9ED-3334-4CD8-BBFD-C8B18F49FA24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92F6B9ED-3334-4CD8-BBFD-C8B18F49FA24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92F6B9ED-3334-4CD8-BBFD-C8B18F49FA24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C65BF13-7B93-43F3-8F9F-E0B23FA2DA8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C65BF13-7B93-43F3-8F9F-E0B23FA2DA8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C65BF13-7B93-43F3-8F9F-E0B23FA2DA8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C65BF13-7B93-43F3-8F9F-E0B23FA2DA8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
