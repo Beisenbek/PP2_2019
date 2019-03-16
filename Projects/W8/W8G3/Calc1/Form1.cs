@@ -35,5 +35,4 @@ namespace Calc1
         }
     }
 
-    public delegate void MyDelegate(string text);
 }

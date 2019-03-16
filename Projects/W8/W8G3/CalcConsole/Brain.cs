@@ -13,6 +13,7 @@ namespace Calc1
         Compute,
         Result
     }
+
     public delegate void MyDelegate(string text);
 
     class Brain

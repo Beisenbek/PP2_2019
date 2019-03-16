@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsAppSample", "Wi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calc1", "Calc1\Calc1.csproj", "{9D1CDAE6-20D4-426B-9147-9D2411997846}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcConsole", "CalcConsole\CalcConsole.csproj", "{B9A04E97-AE72-4B05-9285-046FB4FAB80A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9D1CDAE6-20D4-426B-9147-9D2411997846}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D1CDAE6-20D4-426B-9147-9D2411997846}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D1CDAE6-20D4-426B-9147-9D2411997846}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9A04E97-AE72-4B05-9285-046FB4FAB80A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9A04E97-AE72-4B05-9285-046FB4FAB80A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9A04E97-AE72-4B05-9285-046FB4FAB80A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9A04E97-AE72-4B05-9285-046FB4FAB80A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
