@@ -30,9 +30,8 @@ namespace Example2
 
             //e.Graphics.FillEllipse(new Pen(color, 3).Brush, 230 - d, 230 - d, 100 + 2 * d, 100 + 2 * d);
 
-            e.Graphics.FillEllipse(hBrush, 230 - d, 230 - d, 200 + 2 * d, 200 + 2 * d);
+            e.Graphics.FillEllipse(hBrush, 230 - d, 230 - d, 200 + 2 * d, 20 + 2 * d);
             e.Graphics.DrawEllipse(new Pen(color2, 3), 430, 430, 60, 60);
-
         }
 
         Random random = new Random();
