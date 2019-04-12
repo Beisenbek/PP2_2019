@@ -31,6 +31,12 @@ namespace Example1
 
             e.Graphics.FillEllipse(hBrush, 340, 350, 200, 200);
 
+            GraphicsPath graphicsPath = new GraphicsPath(FillMode.Winding);
+            graphicsPath.AddRectangle(new Rectangle(30, 30, 100, 100));
+            graphicsPath.AddEllipse(new Rectangle(130, 30, 100, 100));
+            graphicsPath.AddLine(30, 30, 100, 100);
+
+            e.Graphics.FillPath(pen.Brush, graphicsPath);
         }
     }
 }
