@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintApp", "PaintApp\PaintA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example1", "Example1\Example1.csproj", "{157AE00B-4D7F-42A1-867A-B6098A89CF43}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example2", "Example2\Example2.csproj", "{D0A0811D-A126-425F-800A-AAD24F469356}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{157AE00B-4D7F-42A1-867A-B6098A89CF43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{157AE00B-4D7F-42A1-867A-B6098A89CF43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{157AE00B-4D7F-42A1-867A-B6098A89CF43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0A0811D-A126-425F-800A-AAD24F469356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0A0811D-A126-425F-800A-AAD24F469356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0A0811D-A126-425F-800A-AAD24F469356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0A0811D-A126-425F-800A-AAD24F469356}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
