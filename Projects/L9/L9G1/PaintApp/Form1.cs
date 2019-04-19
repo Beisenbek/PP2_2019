@@ -17,7 +17,8 @@ namespace PaintApp
         Pencil,
         Ellipse,
         Fill,
-        Eraser
+        Eraser,
+        Fill2
     }
 
     public partial class Form1 : Form
@@ -96,6 +97,19 @@ namespace PaintApp
         private void PictureBox1_MouseDown(object sender, MouseEventArgs e)
         {
             prevPoint = e.Location;
+            if (toolState == PaintToolState.Fill)
+            {
+                DummyFill dummyFill = new DummyFill();
+                dummyFill.Fill(bitmap, pen.Color, e.Location);
+                pictureBox1.Refresh();
+            }
+            else if (toolState == PaintToolState.Fill2)
+            {
+                MapFill mapFill = new MapFill();
+                mapFill.Fill(graphics, e.Location, pen.Color, ref bitmap);
+                graphics = Graphics.FromImage(bitmap);
+                pictureBox1.Image = bitmap;
+            }
         }
 
         private void PictureBox1_Paint(object sender, PaintEventArgs e)
@@ -179,6 +193,47 @@ namespace PaintApp
             else
             {
                 graphics.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.Default;
+            }
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            toolState = PaintToolState.Fill2;
+        }
+
+        private void ColorFromDialogToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (colorDialog1.ShowDialog() == DialogResult.OK)
+            {
+                pen.Color = colorDialog1.Color;
+            }
+        }
+
+        private void SaveToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if(saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                bitmap.Save(saveFileDialog1.FileName);
+            }
+        }
+
+        private void FileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void OpenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                bitmap = Bitmap.FromFile(openFileDialog1.FileName) as Bitmap;
+                graphics = Graphics.FromImage(bitmap);
+                pictureBox1.Image = bitmap;
             }
         }
     }

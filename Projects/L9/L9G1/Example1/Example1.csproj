@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AFA815EC-DBE0-4DA9-AFFC-C5B2971CE0A8}</ProjectGuid>
+    <ProjectGuid>{157AE00B-4D7F-42A1-867A-B6098A89CF43}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>PaintApp</RootNamespace>
-    <AssemblyName>PaintApp</AssemblyName>
+    <RootNamespace>Example1</RootNamespace>
+    <AssemblyName>Example1</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,14 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DummyFill.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="GDI.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">

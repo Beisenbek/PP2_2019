@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.28527.54
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintApp", "PaintApp\PaintApp.csproj", "{AFA815EC-DBE0-4DA9-AFFC-C5B2971CE0A8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example1", "Example1\Example1.csproj", "{157AE00B-4D7F-42A1-867A-B6098A89CF43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{AFA815EC-DBE0-4DA9-AFFC-C5B2971CE0A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFA815EC-DBE0-4DA9-AFFC-C5B2971CE0A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFA815EC-DBE0-4DA9-AFFC-C5B2971CE0A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{157AE00B-4D7F-42A1-867A-B6098A89CF43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{157AE00B-4D7F-42A1-867A-B6098A89CF43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{157AE00B-4D7F-42A1-867A-B6098A89CF43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{157AE00B-4D7F-42A1-867A-B6098A89CF43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
